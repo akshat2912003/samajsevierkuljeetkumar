@@ -1,0 +1,21 @@
+{
+  "name": "श्री कुलजीत कुमार — समाज सेवक",
+  "short_name": "कुलजीत कुमार",
+  "description": "श्री कुलजीत कुमार — बोकारो के कार्यपालक अभियंता एवं समाज सेवक। शिक्षा, महिला कल्याण, ग्राम विकास।",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FEFCF8",
+  "theme_color": "#E8612C",
+  "orientation": "portrait-primary",
+  "lang": "hi",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["social", "community", "education"],
+  "screenshots": []
+}
