@@ -3022,92 +3022,146 @@ export default function SocialWorkerWebsite() {
               <div
                 style={{
                   display: "grid",
-                  gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-                  gap: "1.5rem",
+                  gridTemplateColumns: "repeat(auto-fit, minmax(140px, 1fr))",
+                  gap: "1rem",
                 }}
               >
-                <div
+                {/* Phone Card */}
+                <a
+                  href="tel:+917991176312"
                   style={{
-                    background: "#fff",
-                    padding: "2rem",
-                    borderRadius: "20px",
-                    boxShadow: "0 10px 30px rgba(0,0,0,0.05)",
-                    border: "1px solid rgba(0,0,0,0.03)",
+                    background: `linear-gradient(135deg, #F5A96D, #E89156)`,
+                    color: "#fff",
+                    padding: "1.25rem 1rem",
+                    borderRadius: "14px",
+                    boxShadow: "0 4px 12px rgba(232, 97, 44, 0.15)",
+                    border: "none",
+                    textDecoration: "none",
+                    cursor: "pointer",
+                    transition: "all 0.3s ease",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    gap: "0.6rem",
+                    textAlign: "center",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = "translateY(-4px)";
+                    e.currentTarget.style.boxShadow = `0 8px 18px rgba(232, 97, 44, 0.25)`;
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = "translateY(0)";
+                    e.currentTarget.style.boxShadow = `0 4px 12px rgba(232, 97, 44, 0.15)`;
                   }}
                 >
                   <div
                     style={{
-                      fontSize: "2rem",
-                      background: `${COLORS.saffron}15`,
-                      width: 60,
-                      height: 60,
+                      fontSize: "1.5rem",
+                      width: 42,
+                      height: 42,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
-                      borderRadius: "15px",
-                      marginBottom: "1rem",
+                      background: "rgba(255,255,255,0.25)",
+                      borderRadius: "10px",
                     }}
                   >
                     📞
                   </div>
-                  <h4
-                    style={{
-                      fontWeight: 800,
-                      color: COLORS.greenDark,
-                      marginBottom: "0.5rem",
-                      fontSize: "1.2rem",
-                    }}
-                  >
-                    {lang === "hi" ? "फ़ोन" : "Phone"}
-                  </h4>
-                  <p style={{ color: "#666", fontWeight: 500 }}>
-                    +91 79911 76312
-                  </p>
-                </div>
-                <div
+                  <div>
+                    <h4
+                      style={{
+                        fontWeight: 700,
+                        marginBottom: "0.2rem",
+                        fontSize: "0.9rem",
+                        margin: 0,
+                      }}
+                    >
+                      {lang === "hi" ? "फ़ोन" : "Phone"}
+                    </h4>
+                    <p
+                      style={{
+                        fontSize: "0.8rem",
+                        fontWeight: 600,
+                        margin: 0,
+                        opacity: 0.95,
+                        lineHeight: "1.2",
+                      }}
+                    >
+                      +91 79911 76312
+                    </p>
+                  </div>
+                </a>
+
+                {/* Email Card */}
+                <button
+                  onClick={() => {
+                    window.location.href = "mailto:erkuljeetbsl@gmail.com";
+                  }}
                   style={{
-                    background: "#fff",
-                    padding: "2rem",
-                    borderRadius: "20px",
-                    boxShadow: "0 10px 30px rgba(0,0,0,0.05)",
-                    border: "1px solid rgba(0,0,0,0.03)",
+                    background: `linear-gradient(135deg, #6BC16B, #54A054)`,
+                    color: "#fff",
+                    padding: "1.25rem 1rem",
+                    borderRadius: "14px",
+                    boxShadow: "0 4px 12px rgba(45, 106, 45, 0.15)",
+                    border: "none",
+                    cursor: "pointer",
+                    transition: "all 0.3s ease",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    gap: "0.6rem",
+                    textAlign: "center",
+                    fontFamily: "inherit",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = "translateY(-4px)";
+                    e.currentTarget.style.boxShadow = `0 8px 18px rgba(45, 106, 45, 0.25)`;
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = "translateY(0)";
+                    e.currentTarget.style.boxShadow = `0 4px 12px rgba(45, 106, 45, 0.15)`;
                   }}
                 >
                   <div
                     style={{
-                      fontSize: "2rem",
-                      background: `${COLORS.green}15`,
-                      width: 60,
-                      height: 60,
+                      fontSize: "1.5rem",
+                      width: 42,
+                      height: 42,
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
-                      borderRadius: "15px",
-                      marginBottom: "1rem",
+                      background: "rgba(255,255,255,0.25)",
+                      borderRadius: "10px",
                     }}
                   >
                     ✉️
                   </div>
-                  <h4
-                    style={{
-                      fontWeight: 800,
-                      color: COLORS.greenDark,
-                      marginBottom: "0.5rem",
-                      fontSize: "1.2rem",
-                    }}
-                  >
-                    {lang === "hi" ? "ईमेल" : "Email"}
-                  </h4>
-                  <p
-                    style={{
-                      color: "#666",
-                      fontWeight: 500,
-                      wordBreak: "break-all",
-                    }}
-                  >
-                    erkuljeetbsl@gmail.com
-                  </p>
-                </div>
+                  <div>
+                    <h4
+                      style={{
+                        fontWeight: 700,
+                        marginBottom: "0.2rem",
+                        fontSize: "0.9rem",
+                        margin: 0,
+                      }}
+                    >
+                      {lang === "hi" ? "ईमेल" : "Email"}
+                    </h4>
+                    <p
+                      style={{
+                        fontSize: "0.8rem",
+                        fontWeight: 600,
+                        margin: 0,
+                        opacity: 0.95,
+                        wordBreak: "break-word",
+                        lineHeight: "1.2",
+                      }}
+                    >
+                      erkuljeetbsl@gmail.com
+                    </p>
+                  </div>
+                </button>
               </div>
 
               {/* Social Media Links */}
