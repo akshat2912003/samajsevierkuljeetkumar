@@ -86,7 +86,7 @@ const SERVICES_HI = [
   {
     icon: "💒",
     title: "गरीब बेटियों का विवाह",
-    desc: "लगभग तीन दर्जन निर्धन परिवारों की बेटियों के विवाह में खाद्य सामग्री, वस्त्र एवं आर्थिक सहायता — जिला भोजपुर एवं बोकारो दोनों में।",
+    desc: "लगभग तीन दर्जन निर्धन परिवारों की बेटियों के विवाह में खाद्य सामग्री, वस्त्र एवं आर्थिक सहायता — जिला भोजपुर एवं आस-पास के क्षेत्रों में।",
     color: "#C04E1F",
   },
   {
@@ -103,8 +103,8 @@ const SERVICES_HI = [
   },
   {
     icon: "🏙️",
-    title: "बोकारो में सेवा",
-    desc: "कर्मभूमि बोकारो में भी अनाथालय के बच्चों को पाठ्य सामग्री, वृद्धाश्रम सेवा, रेलवे स्टेशन पर कंबल वितरण एवं विषम परिस्थितियों में भोजन।",
+    title: "विस्तृत समाज सेवा",
+    desc: "विभिन्न क्षेत्रों में भी अनाथालय के बच्चों को पाठ्य सामग्री, वृद्धाश्रम सेवा, रेलवे स्टेशन पर कंबल वितरण एवं विषम परिस्थितियों में भोजन।",
     color: "#1A4A1A",
   },
 ];
@@ -125,7 +125,7 @@ const SERVICES_EN = [
   {
     icon: "💒",
     title: "Marriage Assistance",
-    desc: "Provided food materials, clothing, and financial aid for the marriages of daughters from nearly three dozen destitute families — across both Bhojpur and Bokaro districts.",
+    desc: "Provided food materials, clothing, and financial aid for the marriages of daughters from nearly three dozen destitute families — across Bhojpur and surrounding districts.",
     color: "#C04E1F",
   },
   {
@@ -142,8 +142,8 @@ const SERVICES_EN = [
   },
   {
     icon: "🏙️",
-    title: "Service in Bokaro",
-    desc: "In the workplace of Bokaro, distributed study materials to orphanages, served old age homes, provided blankets at the railway station, and arranged meals during difficult circumstances.",
+    title: "Extended Social Service",
+    desc: "In various service areas, distributed study materials to orphanages, served old age homes, provided blankets at the railway station, and arranged meals during difficult circumstances.",
     color: "#1A4A1A",
   },
 ];
@@ -1296,8 +1296,8 @@ export default function SocialWorkerWebsite() {
                   }}
                 >
                   {lang === "hi"
-                    ? "श्री कुलजीत कुमार पिछले कई वर्षों से समाज सेवा के क्षेत्र में सक्रिय भूमिका निभा रहे हैं। उन्होंने शिक्षा, महिला सशक्तिकरण, गरीब परिवारों की सहायता, और ग्रामीण विकास जैसे महत्वपूर्ण क्षेत्रों में उल्लेखनीय कार्य किया है। वर्तमान में वे बोकारो स्टील कंपनी में कार्यपालक अभियंता के रूप में कार्यरत हैं।"
-                    : "Shri Kuljeet Kumar has played an active role in the field of social service for many years. He has done remarkable work in critical areas like education, women's empowerment, assisting poor families, and rural development. He currently serves as an Executive Engineer at Bokaro Steel Company."}
+                    ? "श्री कुलजीत कुमार पिछले कई वर्षों से समाज सेवा के क्षेत्र में सक्रिय भूमिका निभा रहे हैं। उन्होंने शिक्षा, महिला सशक्तिकरण, गरीब परिवारों की सहायता, और ग्रामीण विकास जैसे महत्वपूर्ण क्षेत्रों में उल्लेखनीय कार्य किया है। वर्तमान में वे कार्यपालक अभियंता | भारत सरकार (पीएसयू) के रूप में कार्यरत हैं।"
+                    : "Shri Kuljeet Kumar has played an active role in the field of social service for many years. He has done remarkable work in critical areas like education, women's empowerment, assisting poor families, and rural development. He currently serves as an Executive Engineer | Government of India | PSU."}
                 </p>
 
                 <div
@@ -1308,13 +1308,13 @@ export default function SocialWorkerWebsite() {
                     ? [
                         {
                           label: "पेशा",
-                          value: "कार्यपालक अभियंता, बोकारो",
+                          value: "कार्यपालक अभियंता | भारत सरकार (पीएसयू)",
                           icon: "👨‍💼",
                           color: COLORS.saffron,
                         },
                         {
                           label: "सेवा क्षेत्र",
-                          value: "37+ गांव, भोजपुर-बोकारो",
+                          value: "37+ गांव, भोजपुर",
                           icon: "📍",
                           color: COLORS.green,
                         },
@@ -1334,13 +1334,14 @@ export default function SocialWorkerWebsite() {
                     : [
                         {
                           label: "Profession",
-                          value: "Executive Engineer, Bokaro",
+                          value:
+                            "Executive Engineer | Government of India | PSU",
                           icon: "👨‍💼",
                           color: COLORS.saffron,
                         },
                         {
                           label: "Service Area",
-                          value: "37+ Villages, Bhojpur-Bokaro",
+                          value: "37+ Villages, Bhojpur",
                           icon: "📍",
                           color: COLORS.green,
                         },
