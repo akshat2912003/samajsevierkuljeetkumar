@@ -569,21 +569,21 @@ const FAN_BENEFICIARIES_HI = [
   {
     name: "पचमी देवी",
     relation: "पति — मड़ई मुसहर",
-    address: "सलेमपुर, जलपुरा पंचायत, जिला भोजपुर",
+    address: "पवना, जलपुरा पंचायत, जिला भोजपुर",
     desc: "जो अत्यंत निर्धन परिस्थितियों में जीवन-यापन कर रही हैं। उनके घर पहली बार पंखे की ठंडी हवा पहुँची।",
     img: fanImg1,
   },
   {
     name: "अरुणा देवी",
     relation: "पति — स्वर्गीय धनेश्वर पंडित",
-    address: "पावना, पावना पंचायत, जिला भोजपुर",
+    address: "पवना, पावना पंचायत, जिला भोजपुर",
     desc: "पति के निधन के बाद अकेलेपन और अभाव में जीवन व्यतीत कर रही थीं। उन्हें भी इस अभियान का लाभ मिला।",
     img: fanImg2,
   },
   {
     name: "शिव लखन पासवान",
     relation: "स्वयं",
-    address: "पावना, पावना पंचायत, जिला भोजपुर",
+    address: "सलेमपुर, पावना पंचायत, जिला भोजपुर",
     desc: "जो अपनी आर्थिक स्थिति के कारण स्वयं पंखा खरीदने में असमर्थ थे। उन्हें भी इस अभियान का लाभ मिला।",
     img: fanImg3,
   },
@@ -598,7 +598,7 @@ const FAN_BENEFICIARIES_HI = [
   {
     name: "दुरजना देवी",
     relation: "पति — जवाहर यादव",
-    address: "जोरवरपुर, आरा, जिला भोजपुर (बिहार)",
+    address: "पवना, आरा, जिला भोजपुर (बिहार)",
     dob: "01/01/1957",
     desc: "वे अकेलेपन और आर्थिक अभाव में जीवन व्यतीत कर रही हैं। इस अभियान ने इनके जीवन में राहत पहुँचायी।",
     img: fanImg5,
@@ -609,7 +609,7 @@ const FAN_BENEFICIARIES_EN = [
   {
     name: "Pachami Devi",
     relation: "Husband — Madai Musahar",
-    address: "Salempur, Jalpura Panchayat, Bhojpur District",
+    address: "Pavna, Jalpura Panchayat, Bhojpur District",
     desc: "Living in extremely poor conditions. Cool air from a fan reached her home for the first time.",
     img: fanImg1,
   },
@@ -623,7 +623,7 @@ const FAN_BENEFICIARIES_EN = [
   {
     name: "Shiv Lakhan Paswan",
     relation: "Self",
-    address: "Pavna, Pavna Panchayat, Bhojpur District",
+    address: "Salempur, Pavna Panchayat, Bhojpur District",
     desc: "Unable to purchase a fan on his own due to his financial situation. He was supported through this initiative.",
     img: fanImg3,
   },
@@ -638,7 +638,7 @@ const FAN_BENEFICIARIES_EN = [
   {
     name: "Durjana Devi",
     relation: "Husband — Jawahar Yadav",
-    address: "Jorwarpur, Ara, Bhojpur District (Bihar)",
+    address: "Pavna, Ara, Bhojpur District (Bihar)",
     dob: "01/01/1957",
     desc: "Living in loneliness and economic hardship. This campaign brought a breeze of relief and comfort into her life.",
     img: fanImg5,
